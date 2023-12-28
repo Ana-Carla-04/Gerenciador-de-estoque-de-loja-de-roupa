@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tl_atualizar</class>
+ <widget class="QMainWindow" name="tl_atualizar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(195, 187, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 22pt &quot;Tw Cen MT Condensed Extra Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Atualizar produto:</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>491</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(226, 221, 255);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>120</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Perpetua Titling MT</family>
+       <pointsize>10</pointsize>
+       <weight>3</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 25 10pt &quot;Perpetua Titling MT&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Quantidade:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="atualizar_quantidade">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>120</y>
+       <width>221</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>180</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 25 10pt &quot;Perpetua Titling MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tamanho da peça:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="atualizar_tamanho">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>180</y>
+       <width>221</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>PP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>P</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>M</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>G</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GG</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>240</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 25 10pt &quot;Perpetua Titling MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Cor:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="atualizar_cor">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>221</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Azul</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Roxo</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Rosa</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Amarelo</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Laranja</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Verde</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Vermelho</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preto</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Branco</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Marrom</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>60</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 25 10pt &quot;Perpetua Titling MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;ID:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="atualizar_id">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>60</y>
+       <width>221</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="botao_atualizar_voltar_principal">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>470</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Perpetua Titling MT</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(177, 138, 225);
+border-radius: 20px 20px 20px;}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(193, 102, 216);
+border-radius: 20px 20px 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/tela atualizar/go-back-arrow.png</normaloff>image/tela atualizar/go-back-arrow.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botao_atualizar_final">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>470</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Perpetua Titling MT</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: rgb(177, 138, 225);
+border-radius: 20px 20px 20px;}
+
+QPushButton:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(193, 102, 216);
+border-radius: 20px 20px 20px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Atualizar</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/tela atualizar/atualizar (1).png</normaloff>image/tela atualizar/atualizar (1).png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>image/tela atualizar/atualizar.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
