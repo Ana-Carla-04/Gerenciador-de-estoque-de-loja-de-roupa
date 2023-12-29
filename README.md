@@ -10,3 +10,6 @@ Aqui  um sistema de gerenciamento de estoque direcionado a uma loja de roupas, c
 
 ![image](https://github.com/Ana-Carla-04/Gerenciador-de-estoque-de-loja-de-roupa/assets/153018029/75a315a4-7e98-4d0b-9e93-e1a3ecf7aae3)
 
+![image](https://github.com/Ana-Carla-04/Gerenciador-de-estoque-de-loja-de-roupa/assets/153018029/a654488a-87a2-4c8c-8f20-73036103777a)
+
+
